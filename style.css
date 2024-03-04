@@ -1,0 +1,114 @@
+
+
+body{
+   
+   background-color: black;
+    color: white;
+}
+
+
+.portfolio.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio{
+    background-image: url("image9.jpg");
+    background-size: cover;
+    padding: 30px;
+   
+}
+    nav {
+    text-align: center;
+    background-color:rgb(71, 91, 101);
+    padding: 0.5em;
+    text-decoration: none;
+    height: 70px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 ;
+    
+}
+
+.nav1 {
+    margin-right:2em;
+    margin-left:2em;
+    text-align: center;
+    font-size: 25PX;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+a {
+    text-decoration: none;
+    color:rgb(102, 192, 208);
+}
+
+a:hover{
+    
+    color: rgb(255, 255, 255);
+ }
+
+ a:active{
+    color: black;
+   
+    }
+    
+.img{
+    border: 2px white;
+    border-radius: 60px;
+    margin: 5px;
+    height: 500px;
+    width: auto;
+    float: left;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: fadeInFromLeft 3s ease-in-out forwards;
+}
+
+.myinfo{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+h2{
+    margin-top: 30px;
+    background-color:rgb(71, 91, 101);
+    padding: 10px;
+}
+
+h3{
+    margin-top: 30px;
+    background-color:rgb(71, 91, 101);
+    padding: 10px;
+
+
+}
+
+
+@keyframes fadeInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+footer{
+    
+    text-align:center;
+    background-image: url("image9.jpg");
+    background-size: cover;
+
+      
+    }
+    footer p{
+    color:rgb(174, 189, 255);
+    align-items: center;
+    font-size: 1.2em;			
+    }
