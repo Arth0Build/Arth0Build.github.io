@@ -1,5 +1,5 @@
 
-
+/* Arth VipulKumar Patel, 000883815 */
 body{
    
    background-color: black;
@@ -9,13 +9,14 @@ body{
 
 .portfolio.heading{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .portfolio{
     background-image: url("image9.jpg");
     background-size: cover;
     padding: 30px;
-   
+    animation: headings 1 4s ease-in ;
 }
     nav {
     text-align: center;
@@ -39,6 +40,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 6px;
+    animation: headings 1 3s ease-in ;
 }
 a {
     text-decoration: none;
@@ -46,11 +48,24 @@ a {
 }
 
 a:hover{
+    animation: nav infinite 1.5s ease-in ;
     
-    color: rgb(255, 255, 255);
  }
 
- a:active{
+@keyframes nav {
+    0%{
+        color:rgb(102, 192, 208);
+    }
+    50%{
+        color: rgb(255, 137, 137);
+    }
+    100%{
+        color:rgb(102, 192, 208);
+    }
+}
+
+
+a:active{
     color: black;
    
     }
@@ -77,12 +92,14 @@ h2{
     margin-top: 30px;
     background-color:rgb(71, 91, 101);
     padding: 10px;
+    animation: headings 1 3s ease-in ;
 }
 
 h3{
     margin-top: 30px;
     background-color:rgb(71, 91, 101);
     padding: 10px;
+    animation: headings 1 3s ease-in ;
 
 
 }
@@ -98,6 +115,9 @@ h3{
         transform: translateX(0);
     }
 }
+.project{
+    background-color:rgb(41, 44, 58);
+}
 
 footer{
     
@@ -112,3 +132,15 @@ footer{
     align-items: center;
     font-size: 1.2em;			
     }
+
+@keyframes headings {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}

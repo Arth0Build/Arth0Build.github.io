@@ -1,4 +1,4 @@
-
+// Arth VipulKumar Patel, 000883815
 document.addEventListener('DOMContentLoaded', function () {
 
     var image = document.getElementById('profileImage');
